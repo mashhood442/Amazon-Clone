@@ -1,0 +1,140 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+}
+.navbar{
+    height: 60px;
+    background-color: #0f1111;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.nav_logo{
+    height: 50px;
+    width: 113px;
+    overflow: hidden;
+}
+#logo{
+    height: 50px;
+    width: 113px;
+    background: url(https://m.media-amazon.com/images/G/01/gno/sprites/nav-sprite-global-1x-reorg-privacy._CB587940754_.png);
+    background-position-x: -3px;
+    background-position-y:-40px;
+}
+.border{
+    border: 2px solid transparent;
+}
+.border:hover{
+    border: 0.5px solid white;
+}
+/**box2**/
+.nav_address{
+    height: 50px ;
+    width: 90px;
+    padding-top: 10px;
+    
+}
+.address_1{
+    color: #CCCCCC;
+    font-size: 0.7rem;
+    padding-left: 15px;
+    
+}
+.add_icon{
+    color: #FFFFFF;
+    display: flex;
+}
+.address_2{
+    padding-left: 3px;
+}
+/*nav_search_b0x*/
+.nav_search{
+    height: 40px;
+    width: 440px;
+    display: flex;
+    align-items: center;
+    background-color: #FF9900;
+    border-top-right-radius: 4px;
+    border-top-left-radius: 5px;
+    margin-left: 20px;
+    border: none;
+}
+#Option_All{
+    height: 40px;
+    width: 50px;
+    border-top-left-radius: 4px;
+    background-color: #d4d4d4;
+    border: none;
+}
+#Search_tab{
+    height: 40px;
+    width: 340px;
+}
+.Search_icon{
+    background-color: #FF9900;
+    height: 40px;
+    width: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.nav_search:hover{
+    border: 2px solid orange;
+}
+.Search_icon:active{
+    border: 2px solid orange;
+}
+.nav_address:hover{
+    border: 2px solid white;
+}
+/*box4*/
+#nav_signin{
+    display: flex;
+    font-size: 0.8rem;
+}
+span{
+    font-size: 0.8rem;
+    font-weight: 700;
+}
+.nav_select{
+    height: 60px;
+    padding-top: 10px;
+
+}
+.nav_select:hover{
+    border: 2px solid white;
+}
+/*box5cart*/
+.add_cart{
+    height: 60px;
+    width: 84px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.add_cart:hover{
+    border: 2px solid white
+}
+/*panel*/
+.panel{
+    height: 39px;
+    background-color: #222f3d;
+    display: flex;
+    align-items: center;
+    color: white;
+}
+.panel_link{
+color: white;
+margin: 10px;
+}
+
+/*herosection*/
+.herosection{
+    height: 600px;
+    width: 1500px;
+    background-image:url(https://m.media-amazon.com/images/I/61lwJy4B8PL._SX3000_.jpg) ;
+    background-size: cover;
+}
